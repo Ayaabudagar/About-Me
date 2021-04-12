@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+body {
+    width: 960px;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif!important;
+  }
+  p:hover {
+    background-color: #f05945;
+    color: #f7f3e9;
+}
