@@ -1,9 +1,18 @@
 'use strict';
 let score = 0;
 let userName = prompt("please enter your name", "your name").toLowerCase();
-// console.log(userName);
+
 alert("thank you for visiting my page " + userName);
 
+
+let myName = prompt ("my name is aya?");
+if (myName.toLowerCase()==="yes"||myName.toLowerCase()==="y") {
+ 
+    alert("thats corecct my name is aya!");
+    score++ ;
+}  else if (myName.toLowerCase()==="no"||myName.toLowerCase()==="n") {
+
+=======
 let myName = prompt("my name is aya?");
 const theName = function (name) {
   if (myName.toLowerCase() === "yes" || myName.toLowerCase() === "y") {
@@ -12,6 +21,7 @@ const theName = function (name) {
     score++;
   } else if (myName.toLowerCase() === "no" || myName.toLowerCase() === "n") {
     //    console.log("thats false my name is aya!");
+
     alert("thats false my name is aya!");
 
   }
@@ -20,6 +30,14 @@ theName(myName);
 
 
 
+  let myAge = prompt ("my age is 23?");
+if (myAge.toLowerCase()==="yes"||myAge.toLowerCase()==="y") {
+   
+    alert("thats corecct my age is 23!");
+    score++;
+}  else if (myAge.toLowerCase()==="no"||myAge.toLowerCase()==="n") {
+ 
+=======
 let myAge = prompt("my age is 23?");
 const theAge = function (age) {
   if (myAge.toLowerCase() === "yes" || myAge.toLowerCase() === "y") {
@@ -28,10 +46,20 @@ const theAge = function (age) {
     score++;
   } else if (myAge.toLowerCase() === "no" || myAge.toLowerCase() === "n") {
     // console.log ("thats false my age is 23!");
+
     alert("thats false my age is 23!");
 
   }
 
+
+  let myEducation = prompt (" did i study architecture in university?");
+if (myEducation.toLowerCase()==="yes"||myEducation.toLowerCase()==="y") {
+   
+    alert("thats corecct i'm studied architecture in university!");
+    score++;
+}  else if (myEducation.toLowerCase()==="no"||myEducation.toLowerCase()==="n") {
+
+=======
 }
 theAge(myAge);
 
@@ -45,10 +73,31 @@ const theEducation = function (education) {
     score++;
   } else if (myEducation.toLowerCase() === "no" || myEducation.toLowerCase() === "n") {
     //    console.log("thats false i'm  studied architecture in university !");
+
     alert("thats false i'm  studied architecture in university !");
 
 
   }
+
+  
+  let myGraduation = prompt (" did i graduate from  university?");
+if (myGraduation.toLowerCase()==="yes"||myGraduation.toLowerCase()==="y") {
+    
+    alert("thats corecct i'm graduated from university!");
+    score++;
+  }  else if (myGraduation.toLowerCase()==="no"||myGraduation.toLowerCase()==="n") {
+   
+    alert("thats false i'm  graduated from university!");
+
+  }
+   
+  let myExperience = prompt (" did i have a work experience ?");
+if (myExperience.toLowerCase()==="yes"||myExperience.toLowerCase()==="y") {
+  
+    alert("thats false i'm fresh graduated so i'm don't have work experience!");
+}  else if (myExperience.toLowerCase()==="no"||myExperience.toLowerCase()==="n") {
+
+=======
 
 
 }
@@ -78,6 +127,7 @@ const theExperience = function (experience) {
     alert("thats false i'm fresh graduated so i'm don't have work experience!");
   } else if (myExperience.toLowerCase() === "no" || myExperience.toLowerCase() === "n") {
     //    console.log("thats corecct i'm fresh graduated so i'm don't have work experience!");
+
     alert("thats corecct i'm fresh graduated so i'm don't have work experience!");
     score++;
   }
